@@ -1,0 +1,103 @@
+* {margin: 0;
+padding: 0;
+}
+
+*::selection {background-color: #333;
+	color: #fff;
+}
+body {background-image:url(https://estranhosidade.files.wordpress.com/2015/01/newpic2pixlr.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header {text-align: center;
+text-align: center;
+color: #bbb;
+margin: 20px 0;
+}
+
+
+.formulario {
+	color: #fff;
+	width: 55vw;
+	height: 90vh;
+	background: rgba(0, 0, 0, .84);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border-radius: 4px;
+	margin:  0 auto 30px auto;
+}
+
+.form-items {
+	color: #000;
+	border-radius: 4px;
+	background: #fff;
+	width: 80%;
+	padding: 12px;
+	margin: 17px;
+	outline: none;
+	border: 1.5px solid #000;
+}
+
+.form-items:focus  {
+	background:#dfdfdf;
+}
+
+h2 {padding-top: 30px;
+padding-bottom: 7px;
+text-shadow: 2px 0 0 #000;
+}
+
+p {padding-bottom: 17px;
+}
+
+
+#submit {background:#bbb;
+color:#000;
+outline:none;
+border: 1px solid #000;
+width: 15%;
+padding: 7px;
+margin-top: 23px;
+}
+
+#submit:hover{ background: #fff;
+}
+
+
+#description {padding: 40px 0 0 0;
+	color: #bbb;
+}
+
+/* responsive design*/
+ 
+@media (max-width: 1125px){
+	.formulario {height:80vh ;}
+	#submit {margin:  0;} 
+	#description {padding: 10px 10px 0 10px ;}
+}
+
+@media (max-width: 1000px){
+	.formulario {width:80%;}
+}
+
+@media (max-width: 630px) {
+	.formulario {width: 100%;	
+	margin: auto;}
+}
+
+@media (max-width: 576px){
+	header {font-size: 14px;}
+	#description {padding: 17px;
+	}
+}
+
+@media (max-width: 450px){
+	h1 {font-size: 25px;}
+	header {margin: 10px 0;}
+	h2	{font-size: 22px;
+	padding: 10px 0;}
+	.formulario p {padding: 0 ;}
+	p {font-size: 15px;} 
+	.form-items {padding: 10px;}
+}
