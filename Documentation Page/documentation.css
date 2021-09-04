@@ -13,7 +13,7 @@ body {
 }
 .javascript {font-size: 38px;
     font-weight: 1000;
-    background: #ffb;
+    background: #adf;
     height: 90px;
     display: flex;
     justify-content: center;
@@ -51,8 +51,8 @@ body {
 #navbar li{ border-top: 1px solid #12203e;
 }
 
-.headernav {color: #12203e;
-    background: #ff7;
+.headernav {color: #fff;
+    background:#12203e;
     font-size: 20px;
     text-align: center;
 }
